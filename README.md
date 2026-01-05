@@ -6,7 +6,7 @@
     * Bit Rate : 125K (因為 C20 & C23 出廠時安裝的電容值有錯，所以如果要高於 125K 的 Bit Rate 必須將這兩個電容移除或是改成 47pF )
     * Use RXFIFO0
     * Use TXFIFO
-    * 使用 Filter0 來過濾 0x100 ~ 0x3FF 間的 Standard ID, 這是為了方便做 Demo.
+    * 使用 Filter0 來過濾 0x100 ~ 0x3FF 間的 Standard ID(11-bits), 這是為了方便做 Demo. 在製作多個 Ｎode 時可以不用一直修改 MCC Harmony CAN1 的 Configuration
       
 <img width="635" height="234" alt="image" src="https://github.com/user-attachments/assets/8a275629-ce5e-4afb-8f89-18204b66bb66" />
 
